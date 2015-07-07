@@ -48,6 +48,6 @@
 
 shinyServer( 
     function(input, output) { 
-        output$Perifereia <- renderGvis({Motion})   
+        output$region <- renderGvis({Motion})   
      } 
  )
